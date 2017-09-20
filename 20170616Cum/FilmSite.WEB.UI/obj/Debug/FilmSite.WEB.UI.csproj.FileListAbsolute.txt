@@ -1,0 +1,6 @@
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\bin\FilmSite.WEB.UI.dll.config
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\bin\FilmSite.WEB.UI.dll
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\bin\FilmSite.WEB.UI.pdb
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\obj\Debug\FilmSite.WEB.UI.csprojResolveAssemblyReference.cache
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\obj\Debug\FilmSite.WEB.UI.dll
+C:\Users\Serap\Documents\Visual Studio 2013\Projects\Entity Framework\20170616Cum\FilmSite.WEB.UI\obj\Debug\FilmSite.WEB.UI.pdb

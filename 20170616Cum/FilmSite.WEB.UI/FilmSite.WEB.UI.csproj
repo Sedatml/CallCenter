@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EEA017B-FB2D-4EEF-8256-D12289778059}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FilmSite.WEB.UI</RootNamespace>
+    <AssemblyName>FilmSite.WEB.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FilmResimler\benim-adim-khan-hd-izle-337.jpg" />
+    <Content Include="Main.Master" />
+    <Content Include="packages.config" />
+    <Content Include="İzle.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default.aspx" />
+    <Content Include="FilmResimler\indir %281%29.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="web\404.html" />
+    <Content Include="web\contact.html" />
+    <Content Include="web\css\bootstrap.css" />
+    <Content Include="web\css\popuo-box.css" />
+    <Content Include="web\css\style.css" />
+    <Content Include="web\images\beauty.jpg" />
+    <Content Include="web\images\dot.png" />
+    <Content Include="web\images\eye-brow.jpg" />
+    <Content Include="web\images\f1.jpg" />
+    <Content Include="web\images\f2.jpg" />
+    <Content Include="web\images\f3.jpg" />
+    <Content Include="web\images\f4.jpg" />
+    <Content Include="web\images\f5.jpg" />
+    <Content Include="web\images\f6.jpg" />
+    <Content Include="web\images\gridallbum1.jpg" />
+    <Content Include="web\images\gridallbum10.jpg" />
+    <Content Include="web\images\gridallbum11.jpg" />
+    <Content Include="web\images\gridallbum2.jpg" />
+    <Content Include="web\images\gridallbum3.jpg" />
+    <Content Include="web\images\gridallbum4.jpg" />
+    <Content Include="web\images\gridallbum5.jpg" />
+    <Content Include="web\images\gridallbum6.jpg" />
+    <Content Include="web\images\gridallbum7.jpg" />
+    <Content Include="web\images\gridallbum8.jpg" />
+    <Content Include="web\images\gridallbum9.jpg" />
+    <Content Include="web\images\header-bg.jpg" />
+    <Content Include="web\images\img-sprite.png" />
+    <Content Include="web\images\likes.png" />
+    <Content Include="web\images\link.png" />
+    <Content Include="web\images\logo.png" />
+    <Content Include="web\images\m1.jpg" />
+    <Content Include="web\images\m2.jpg" />
+    <Content Include="web\images\m3.jpg" />
+    <Content Include="web\images\m4.jpg" />
+    <Content Include="web\images\mi.jpg" />
+    <Content Include="web\images\mi1.jpg" />
+    <Content Include="web\images\mi2.jpg" />
+    <Content Include="web\images\mi3.jpg" />
+    <Content Include="web\images\r1.jpg" />
+    <Content Include="web\images\r2.jpg" />
+    <Content Include="web\images\r3.jpg" />
+    <Content Include="web\images\r4.jpg" />
+    <Content Include="web\images\r5.jpg" />
+    <Content Include="web\images\r6.jpg" />
+    <Content Include="web\images\sprit-1.png" />
+    <Content Include="web\images\stylish.jpg" />
+    <Content Include="web\images\views.png" />
+    <Content Include="web\index.html" />
+    <Content Include="web\js\jquery.flexisel.js" />
+    <Content Include="web\js\jquery.magnific-popup.js" />
+    <Content Include="web\js\jquery.min.js" />
+    <Content Include="web\reviews.html" />
+    <Content Include="web\single.html" />
+    <Content Include="web\videos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="İzle.aspx.cs">
+      <DependentUpon>İzle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="İzle.aspx.designer.cs">
+      <DependentUpon>İzle.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{7ea54576-5d9c-42b0-acf6-487911e00c12}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Extension\Extension.csproj">
+      <Project>{a0a7a36f-6466-4b31-881e-8de15d9c1bb2}</Project>
+      <Name>Extension</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FilmSite.BLL\FilmSite.BLL.csproj">
+      <Project>{1c6f288b-2a37-4e54-a4e3-c9bb4a018374}</Project>
+      <Name>FilmSite.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9493</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9493/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
